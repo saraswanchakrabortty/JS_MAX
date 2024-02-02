@@ -27,3 +27,10 @@ let myObj={
 const myFunction = function(){
     console.log("Hello Js");
 }
+
+
+// ++++++++++++++++++++++++++ Memory Management in Js ++++++++++++++++++++++++
+
+// Stack (Primitive), Heap(Reference Type/Non Primitive)
+
+let myYoutubename = "csaraswan@gmail.com"
