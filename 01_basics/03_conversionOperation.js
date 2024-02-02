@@ -27,3 +27,10 @@
 
 // true => 1
 // false => 0
+
+
+// ******************************** Operations *********************************
+
+let value = 3
+let negValue = -value 
+console.log(negValue);
