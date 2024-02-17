@@ -13,4 +13,4 @@
 
 ((flavour) => {
     console.log(`DB Connected ${flavour} Coffe`);   
-})('Cold')             //<-- iife function using a arrow function
+})('Cold')             //<-- iife fuqnction using a arrow function
