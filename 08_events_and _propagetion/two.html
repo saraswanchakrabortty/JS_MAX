@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events 2</title>
+</head>
+<body>
+    <h1>Don't know what</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    const sayThis = function(){
+        console.log("This")
+    }
+    
+    const changeText = function(){
+        document.querySelector('h1').innerHTML = "I'm the best"
+    }
+    
+
+    const changeMe = setTimeout(changeText,2000)
+
+    document.getElementById('stop').addEventListener('click',(e)=>{
+        clearTimeout(changeMe)
+        console.log("STOPPED")
+    },false)
+
+</script>
+</html>
