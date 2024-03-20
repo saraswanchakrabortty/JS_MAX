@@ -6,7 +6,7 @@
 //         console.log(`${this.username} , welcome to website`);
 //         console.log(this); // <- The context can be checked by logging the value of "this"(keyword)
 //     }
-// }
+// } 
 
 // user.welcomeMessage()
 // user.username = "Sam"
