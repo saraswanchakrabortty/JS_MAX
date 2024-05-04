@@ -20,7 +20,7 @@ const JsUser = {
 // console.log(JsUser["name"]);
 // console.log(JsUser["Full Name"]);
 // console.log(typeof JsUser[mySym]);
-console.log(JsUser);
+// console.log(JsUser);
 
 JsUser.greeting = function(){
     console.log("Hello Js user");
